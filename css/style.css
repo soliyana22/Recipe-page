@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: "Young Serif", serif;
 }
 .container{
     height:auto;
@@ -92,6 +93,11 @@ body{
     line-height: 2;
     margin-top:15px;
  }
+ li,p{
+  line-height:2;
+ }
+ 
+
  @media screen and (max-width: 768px) {
     .container {
       width: 100%;
